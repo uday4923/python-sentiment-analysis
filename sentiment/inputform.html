@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> sentiment analysis</title>
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color:gray">
+	<div class="container-fluid" style="margin-bottom:100px" >
+		<div>
+			<h3> THIS IS A SAMPLE IMPLEMENTATION FOR SENTIMENT ANALYSIS PROJECT</h3>
+		</div>
+	</div>
+	<div class="container">
+		<div>
+			<form action=" " method="GET" name="usrform">{% csrf_token %}
+				<div class="form-group">
+					<textarea rows="6" cols="20" name="iform" class="form-control" placeholder="Enter sample tweet to check here" style="margin-bottom:40px"></textarea><br>
+					<input type="submit" name="submit" value="submit" style= "margin-left:500px">
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
